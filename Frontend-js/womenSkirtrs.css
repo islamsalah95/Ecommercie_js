@@ -1,0 +1,641 @@
+.header {
+    height: 40px;
+    background-color: rgb(166, 207, 255);
+    margin-top: -8px;
+    margin-left: -8px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.head1 {
+    margin-top: 10px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.head2 {
+    margin-left: 1100px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.EShopper {
+    margin-top: 20px;
+}
+
+.E {
+    color: rgb(192, 58, 102);
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: bolder;
+    border: 1px solid rgb(216, 186, 186);
+    width: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopper {
+    font-size: 50px;
+    margin-left: 120px;
+    font-weight: bolder;
+    margin-top: -56px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    border: 1px solid rgb(216, 186, 186);
+    height: 30px;
+    width: 500px;
+    margin-top: -40px;
+    margin-left: 380px;
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.searchicon {
+    margin-left: 850px;
+    margin-top: -30px;
+    position: sticky;
+}
+
+.searchicon :hover {
+    color: rgb(192, 58, 102);
+}
+
+.heart {
+    border: 1px solid rgb(216, 186, 186);
+    height: 40px;
+    width: 60px;
+    margin-left: 1100px;
+    margin-top: -35px;
+    position: relative;
+}
+
+.hearticon {
+    color: rgb(192, 58, 102);
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.zero {
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(66, 63, 63);
+    margin-left: 30px;
+    position: absolute;
+}
+
+.cart {
+    border: 1px solid rgb(216, 186, 186);
+    height: 40px;
+    width: 60px;
+    margin-left: 1200px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.carticon {
+    color: rgb(192, 58, 102);
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.hr {
+    color: rgb(238, 213, 213);
+    margin-top: 30px;
+}
+
+.head3 {
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head3 :hover {
+    color: rgb(192, 58, 102);
+}
+
+.navigation .menu {
+    position: relative;
+}
+
+.submenu {
+    height: 200px;
+    margin-left: 70px;
+    padding-right: 170px;
+    margin-top: 6px;
+    position: absolute;
+    background-color: rgb(192, 58, 102);
+    transition: all 7s;
+    display: none;
+}
+
+.submenu li {
+    margin-top: 20px;
+    margin-left: -30px;
+    position: absolute;
+}
+
+.submenu li a {
+
+    text-decoration: none;
+
+}
+
+.navigation .menu:hover .submenu {
+    display: block;
+    background-color: rgb(46, 171, 202);
+}
+
+.navigation .menu2 {
+    position: relative;
+}
+
+.submenu2 {
+    height: 140px;
+    margin-left: 190px;
+    padding-right: 130px;
+    margin-top: 6px;
+    position: absolute;
+    background-color: rgb(192, 58, 102);
+    transition: all 7s;
+    display: none;
+}
+
+.submenu2 li {
+    margin-top: 20px;
+    margin-left: -40px;
+    position: absolute;
+}
+
+.submenu2 li a {
+    text-decoration: none;
+}
+
+.navigation .menu2:hover .submenu2 {
+    display: block;
+    background-color: rgb(46, 171, 202);
+}
+
+.form {
+    margin-left: 1100px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.image {
+    background-color: rgb(166, 207, 255);
+    height: 300px;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -8px;
+    ;
+}
+
+.image h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.image .link {
+    padding-left: 600px;
+
+}
+
+.image a {
+    color: #c03a66;
+    font-size: 20px;
+}
+
+.container {
+    height: 500px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+    margin-left: 40px;
+    width: 600px;
+    height: 35px;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.massage {
+    margin-left: 40px;
+    width: 600px;
+    height: 200px;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    margin-left: 40px; 
+    margin-top: 15px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.spn1 {
+    float: left;
+
+}
+
+#contactForm {
+
+    height: 300px;
+}
+
+.spn2 {
+    padding-left: 30px;
+}
+
+.spn2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spn2 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    color: rgb(192, 58, 102);
+    font-size: 25px;
+}
+
+.footer {
+    height: 550px;
+    margin-left: -10px;
+    background-color: rgb(166, 207, 255);
+    margin-bottom: -380px;
+    margin-top: 100px;
+    margin-right: -8px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.e {
+    color: rgb(192, 58, 102);
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    border: 1px solid rgb(216, 186, 186);
+    width: 60px;
+    text-align: center;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.Shopper {
+    font-size: 50px;
+    margin-left: 140px;
+    font-weight: bolder;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.paragraph {
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.locationicon {
+    color: rgb(192, 58, 102);
+    font-size: 25px;
+    margin-top: 290px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.location {
+    margin-top: 293px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.mailicon {
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 340px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.mail {
+
+    margin-top: 340px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.callicon {
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 390px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.call {
+    margin-top: 390px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.circleicon {
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.yoursitename {
+    margin-top: 12px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.yoursitename:hover {
+    color: rgb(192, 58, 102);
+
+}
+
+.circle {
+    margin-top: 12px;
+    margin-left: 200px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.codes {
+    margin-top: 15px;
+    margin-left: 440px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.codes:hover {
+    color: rgb(192, 58, 102);
+}
+
+.lastparagraph {
+    margin-top: 250px;
+    position: relative;
+}
+
+.newsletter {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -300px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -250px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail2 {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -220px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -190px;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(172, 81, 111);
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.subscribe a {
+    color: white;
+}
+.shopping_cart_header {
+    height: 200px;
+    background-color: #EDF1FF;
+    margin: 1.8rem -8px;
+    text-align: center;
+    padding-top: 4.3rem;
+}
+
+.shopping_cart_header h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .1rem;
+}
+
+.shopping_cart_header .shopping_cart_header_content p {
+    display: inline-block;
+    margin: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #6F6F6F;
+}
+
+.shopping_cart_header .shopping_cart_header_content p a {
+    color: #D19C97;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+/* Women Skirtrs header */
+.shopping_cart_header .shopping_cart_header_content p a:hover {
+    color: #ba6a62;
+    text-decoration: underline;
+}
+
+.search_product 
+{
+    border: 1px solid rgb(216, 186, 186);
+    height: 30px;
+    width: 26rem;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    padding: .4rem;
+}
+
+.searchicon_product
+{
+    margin-left: 27.3rem;
+    margin-top: -33px;
+    color:#ba6a62;
+}
+
+.searchicon_product :hover {
+    color: rgb(192, 58, 102);
+}
+
+.sort_product
+{
+    float: right;
+    margin-right: 7rem;
+    margin-top: -2rem;
+    display: flex;
+}
+.sort_product .sort
+{
+    margin: 0;
+    padding: .3rem 1rem;
+    font-weight: 500;
+    font-size: 1rem
+}
+.sort_product .select select
+{
+    width: 10rem;
+    height: 35px;
+    padding: .4rem;
+    font-size: 1rem;
+    color: #ba6a62;
+    border: 1px solid rgb(216, 186, 186);
+}
+
+/* Women skirtrs header end */
+
+/* content */
+
+.shop_content_table table
+{
+    margin: 2rem 0rem 0 1rem;
+}
+.shop_content_table table td
+{
+    padding: 1.4rem;
+    
+}
+
+.shop_content_table table td .image_cart
+{
+    border: 1px solid #EDF1FF;
+    padding: 1rem;
+}
+.shop_content_table table td .data_cart
+{
+    text-align: center;
+    border: 1px solid #EDF1FF;
+    padding: 0 1rem;    
+}
+.shop_content_table table td .data_cart h6
+{
+    font-size: 1rem;
+    margin: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1C1C1C; 
+    font-family: "Poppins", sans-serif;
+}
+
+.shop_content_table table td .data_cart .d_flex 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.shop_content_table table td .data_cart .d_flex  h6
+{
+    font-weight: 500;
+}
+.shop_content_table table td .data_cart .d_flex  h6 del
+{
+    color: #6c757d
+}
+.shop_content_table table td .data_footer
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EDF1FF;
+}
+.shop_content_table table td .data_footer .text_primary
+{
+    color: #D19C97 ;
+    margin-right: 0.25rem;
+}
+.shop_content_table table td .data_footer a:hover
+{
+    color:#ba6a62;
+}

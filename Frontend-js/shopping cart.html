@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head1">
+            <li><a href="">FAQs |</a></li>
+            <li><a href="">Help |</a></li>
+            <li><a href="">Support </a></li>
+        </div>
+        <div class="head2">
+
+            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        </div>
+    </div>
+    <div class="EShopper">
+        <div class="E">E</div>
+        <div class="shopper">Shopper</div>
+    </div>
+    <input type="text" class="search" placeholder="Search For Products">
+    <div class="searchicon"><a href="search.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+    </div>
+    <a href="favourite.html">
+        <div class="heart">
+            <div class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i>
+                <div class="zero">0</div>
+            </div>
+        </div>
+    </a>
+    <a href="cart.html">
+        <div class="cart">
+            <div class="carticon"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <div class="zero">0</div>
+            </div>
+        </div>
+    </a>
+
+    <hr class="hr">
+    <div class="head3">
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li class="menu">Categories
+                <ul class="submenu">
+                    <li><a href="wommen dresses.html">Women Dresses</a></li><br><br><br>
+                    <li><a href="Women Skirts.html">Women Skirts</a></li><br><br><br>
+                    <li><a href="wommen casual.html">Women casual</a></li><br><br><br>
+                </ul>
+            </li>
+            <li class="menu2">Pages
+                <ul class="submenu2">
+                    <li><a href="shopping cart.html">Shopping Cart</a></li><br><br><br>
+                    <li><a href="checkout.html">Checkout</a></li><br><br><br>
+                </ul>
+            </li>
+            <li><a href="shop detail.html">shop detail</a></li>
+        </ul>
+    </div>
+    <div class="form">
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="registration.html">Register</a></li>
+    </div>
+    <div class="shopping_cart_header">
+        <h1>Shopping cart</h1>
+        <div class="shopping_cart_header_content">
+            <p>
+                <a href="Home.html">Home</a>
+            </p>
+            <p> - </p>
+            <p>
+                Shopping Cart
+            </p>
+        </div>
+    </div>
+
+    <div class="shopping_content">
+        <div class="shopping_table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>products</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                     
+                    <!-- <tr>
+                        <td><img src="images/casual.png" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                        <td>$150</td>
+                        <td><button class="bttn btn_sm btn_primary"><i class="fa fa-times"></i></button></td>
+                    </tr> -->
+                   
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="shopping_side">
+            <form  action="" class="from_side">
+                <div class="input_group_side">
+                    <input type="text" class="form_control_side p-4" placeholder="Coupon Code">
+                    <div class="input_group_append">
+                        <button class="bttn_side btn_primary">Apply Coupon</button>
+                    </div>
+                </div>
+            </form>
+            <div class="cart_sumary">
+                <div >
+                    <h4>Cart Summary</h4>
+                </div>
+                
+                
+                <div class="card-body">
+                    <h2 class="pro">Product</h2>
+            <div id="item" class="card-body">
+              
+                <!-- <div id="item" class="d-flex justify-content-between">
+                    <h6>Colorful Stylish Shirt 1</h6>
+                    <h6>$150</h6>
+                </div> -->
+        
+            </div>
+        
+        
+        
+        
+            <div class="cart_footer border-secondary bg-transparent">
+                <div class="d-flex justify-content-between">
+                    <h5>Total</h5>
+                    <h5 id="toal"></h5>
+                </div>
+                <button id="myBtn" class="bttn_side_footer btn_primary">Proceed To Checkout</button>
+
+            </div>
+                
+            
+            
+            </div>
+        </div>
+        
+
+    </div>
+
+
+
+    <div class="footer">
+        <h1 class="e">E</h1>
+        <h1 class="Shopper">Shopper</h1>
+        <p class="paragraph">Dolore erat dolor sit lorem vero amet. Sed sit lorem <br> magna, ipsum no sit erat lorem et
+            magna ipsum <br> dolore amet erat.</p>
+        <div class="locationicon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+        <p class="location">123 Street, New York, USA</p>
+        <div class="mailicon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <p class="mail">info@example.com</p>
+        <div class="callicon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        <p class="call">+012 345 67890</p>
+    </div>
+    <div class="lastparagraph">
+        <div class="circleicon"><i class="fa fa-spinner" aria-hidden="true"></i></div>
+        <a href="Home.html" class="yoursitename">Your Site Name.</a>
+        <p class="circle"> All Rights Reserved. Designed by</p>
+        <a href="https://htmlcodex.com/" class="codes">Html Codes</a>
+    </div>
+
+    <div class="lastdiv">
+        <h2 class="newsletter">News Letter</h2>
+        <input type="text" placeholder="Your Name" class="name"><br><br><br>
+        <input type="email" placeholder="Your E-mail" class="mail2"><br><br><br>
+        <button class="subscribe"><a href="subscribe.html">Subscribe Now</a></button>
+    </div>
+    <script src="js.Js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+
+    <script>
+
+        window.axios.defaults.headers.common['Accept'] = 'application/json';
+        window.axios.defaults.headers.common['Authorization'] =localStorage.getItem("token");
+
+ axios.get('http://127.0.0.1:8000/api/showCartItems').then(function (response) {
+console.log(response.data.data.showCartItems);
+var showCartItems=response.data.data.showCartItems;
+
+for (let index = 0; index < showCartItems.length; index++) {                
+console.log(showCartItems[index].img);
+var tr=document.createElement("tr");
+
+var tdfirstName= document.createElement("td");
+tdfirstName.innerHTML = `EGP ${showCartItems[index].price}`;
+
+var tdlastName= document.createElement("td");
+var button =document.createElement("button")
+button.setAttribute("class","bttn btn_sm btn_primary")
+var a= document.createElement("a");
+a.setAttribute("class","fa fa-times")
+button.appendChild(a)
+tdlastName.appendChild(button)
+
+tdlastName.onclick =async function()
+{
+await  axios.post(`http://127.0.0.1:8000/api/deleteCart/${showCartItems[index].id}`)
+location.reload();
+
+};
+
+var tdImg=document.createElement("td");
+var tdSrcImg=document.createElement("img");
+tdSrcImg.setAttribute("src",showCartItems[index].img)
+tdSrcImg.setAttribute("style", "width: 50px;");
+tdImg.appendChild(tdSrcImg)
+tr.appendChild(tdImg);
+tr.appendChild(tdfirstName);
+tr.appendChild(tdlastName);
+document.getElementById("tbody").appendChild(tr);
+
+}
+
+
+})
+          .catch(function (error) {
+            console.log(error);
+          });
+
+
+          axios.get('http://127.0.0.1:8000/api/showCartItems')
+          .then(function (response) {
+            console.log(response.data.data.showCartItems);
+var showCartItems=response.data.data.showCartItems;
+for (let index = 0; index < showCartItems.length; index++) {                
+       var div=document.createElement("div");
+        //var hDesc=document.createElement("h6");
+        var hPrice=document.createElement("h6");
+        hPrice.innerHTML=showCartItems[index].price;
+       // div.appendChild(hDesc);
+        div.appendChild(hPrice);
+        document.getElementById("item").appendChild(div);}})
+          .catch(function (error) {
+            console.log(error);
+          });
+
+       
+          axios.get('http://127.0.0.1:8000/api/totalPriceCart')
+          .then(function (response) {
+            console.log(response.data.data.totalPriceCart);
+            document.getElementById("toal").innerHTML=`EGP ${response.data.data.totalPriceCart}`;
+
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+
+
+
+
+          document.getElementById("myBtn").onclick=function () {
+            window.location.href = "checkout.html";
+          }
+</script>
+
+
+
+
+
+
+</body>
+
+</html>

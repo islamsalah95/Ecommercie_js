@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head1">
+            <li><a href="">FAQs |</a></li>
+            <li><a href="">Help |</a></li>
+            <li><a href="">Support </a></li>
+        </div>
+        <div class="head2">
+
+            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        </div>
+    </div>
+    <div class="EShopper">
+        <div class="E">E</div>
+        <div class="shopper">Shopper</div>
+    </div>
+    <input type="text" class="search" placeholder="Search For Products">
+    <div class="searchicon"><a href="search.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+    </div>
+    <a href="favourite.html">
+        <div class="heart">
+            <div class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i>
+                <div class="zero">0</div>
+            </div>
+        </div>
+    </a>
+    <a href="cart.html">
+        <div class="cart">
+            <div class="carticon"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <div class="zero">0</div>
+            </div>
+        </div>
+    </a>
+
+    <hr class="hr">
+    <div class="head3">
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li class="menu">Categories
+                <ul class="submenu">
+                    <li><a href="wommen dresses.html">Women Dresses</a></li><br><br><br>
+                    <li><a href="Women Skirts.html">Women Skirts</a></li><br><br><br>
+                    <li><a href="wommen casual.html">Women casual</a></li><br><br><br>
+                </ul>
+            </li>
+            <li class="menu2">Pages
+                <ul class="submenu2">
+                    <li><a href="shopping cart.html">Shopping Cart</a></li><br><br><br>
+                    <li><a href="checkout.html">Checkout</a></li><br><br><br>
+                </ul>
+            </li>
+            <li><a href="shop detail.html">shop detail</a></li>
+        </ul>
+    </div>
+    <div class="form">
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="registration.html">Register</a></li>
+    </div>
+    <div class="shopping_cart_header">
+        <h1>Shop Detail</h1>
+        <div class="shopping_cart_header_content">
+            <p>
+                <a href="Home.html">Home</a>
+            </p>
+            <p> - </p>
+            <p>
+                Shop Detail
+            </p>
+        </div>
+    </div>
+
+    <div class="chekout_content">
+        <div class="checkout_container">
+            <div class="checkout_container_image">
+                <div class="carousel-item active">
+                    <img id="productImg" class="w-100 h-100" src="" alt="Image">
+                </div>
+            </div>
+            <div class="checkout_container_side">
+                <h3 id="productName"></h3>
+                <div class="d-flex">
+                    <div class="text_primary">
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <small id="productReview" class="review"></small>
+                </div>
+                <h3 id="productPrice"></h3>
+                <p id="productDesc1"></p>
+                <div class="d-flex">
+                    <p class="size">Sizes:</p>
+                 
+                    <form id="mysize" class="">
+                        <div class="custom-control">
+                            <input type="radio" id="size-1" class="messageCheckbox name="overSize" value="xl" type="checkbox">
+                            <label for="size-1">Xl</label>
+                        </div>
+                        <div class="custom-control">
+                            <input type="radio" id="size-2" class="messageCheckbox name="overSize" value="xxl" type="checkbox">
+                            <label for="size-2">xxl</label>
+                        </div>
+                        <div class="custom-control">
+                            <input type="radio" id="size-3" class="messageCheckbox name="overSize" value="xxxl" type="checkbox">
+                            <label for="size-3">xxxl</label>
+                        </div>
+                    </form>
+              
+              
+              
+                </div>
+
+
+                <div class="input_group_cart">
+                    <div class="input_group_btn">
+                        <button class="bttn btn_sm btn_primary btn_minus">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                    <input type="text" class="form_control" value="1">
+                    <div class="input_group_btn">
+                        <button class="bttn btn_primary">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <button id="BTN" class="bttn_add_to_cart btn_primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="des_nav ">
+                <a class="active" data-cont=".Description" href="#Description">Description</a>
+            </div>
+            <div class="des_content">
+                <div id="Description" class="select Description">
+                    <h4>Product Description</h4>
+                    <p id="productDesc"></p>
+           
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <h1 class="e">E</h1>
+        <h1 class="Shopper">Shopper</h1>
+        <p class="paragraph">Dolore erat dolor sit lorem vero amet. Sed sit lorem <br> magna, ipsum no sit erat lorem et
+            magna ipsum <br> dolore amet erat.</p>
+        <div class="locationicon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+        <p class="location">123 Street, New York, USA</p>
+        <div class="mailicon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <p class="mail">info@example.com</p>
+        <div class="callicon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        <p class="call">+012 345 67890</p>
+    </div>
+    <div class="lastparagraph">
+        <div class="circleicon"><i class="fa fa-spinner" aria-hidden="true"></i></div>
+        <a href="Home.html" class="yoursitename">Your Site Name.</a>
+        <p class="circle"> All Rights Reserved. Designed by</p>
+        <a href="https://htmlcodex.com/" class="codes">Html Codes</a>
+    </div>
+
+    <div class="lastdiv">
+        <h2 class="newsletter">News Letter</h2>
+        <input type="text" placeholder="Your Name" class="name"><br><br><br>
+        <input type="email" placeholder="Your E-mail" class="mail2"><br><br><br>
+        <button class="subscribe"><a href="subscribe.html">Subscribe Now</a></button>
+    </div>
+    <script src="js.Js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+
+    <script>
+
+        window.axios.defaults.headers.common['Accept'] = 'application/json';
+        window.axios.defaults.headers.common['Authorization'] =localStorage.getItem("token");
+            var productId=localStorage.getItem('productId');
+          axios.get(`http://127.0.0.1:8000/api/oneProductDetails/${productId}`)
+          .then(function (response) {
+            console.log(response.data.data.oneProductDetails);
+
+            document.getElementById("productName").innerHTML=response.data.data.oneProductDetails.name;
+            document.getElementById("productPrice").innerHTML=`EGP ${response.data.data.oneProductDetails.price}`; 
+            document.getElementById("productDesc1").innerHTML=response.data.data.oneProductDetails.desc;
+            document.getElementById("productDesc").innerHTML=response.data.data.oneProductDetails.desc;
+           document.getElementById("productImg").setAttribute("src",response.data.data.oneProductDetails.img1);
+
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+
+
+          axios.get(`http://127.0.0.1:8000/api/productRateAvg/${productId}`)
+          .then(function (response) {
+            console.log(response.data.data.productRateAvg);
+            document.getElementById("productReview").innerHTML=`(${response.data.data.productRateAvg})`;
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+
+          document.getElementById("BTN").onclick=async function (e){
+           e.preventDefault();
+    var checkedValue = document.querySelector('.messageCheckbox:checked').value;
+      console.log(checkedValue);
+        await  axios.post(`http://127.0.0.1:8000/api/addCart/${productId}`,{
+            size:checkedValue
+          })
+          .then(function (response) {
+            console.log(response.data.data.cartItem);
+         //   window.location("shopping cart.html"); 
+           // window.location.href = 'shopping cart.html'; //Will take you to Google.
+           window.location.href = "shopping cart.html";
+
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+
+          }
+
+
+
+
+            
+            </script>
+</body>
+
+</html>

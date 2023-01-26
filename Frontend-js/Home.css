@@ -1,0 +1,734 @@
+.header
+{
+    height: 40px;
+    background-color: rgb(166, 207, 255);
+    margin-top: -8px;
+    width: 1349px;
+    margin-left: -8px;
+    position: relative;
+}
+li
+{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+.head1
+{  
+    margin-top: 10px;
+    position: absolute;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    border-bottom: 1px solid white;
+    color: white;
+}
+.head2
+{
+    margin-left: 1100px;
+    margin-top: 12px;
+    position: absolute;
+}
+.EShoppe
+{
+   margin-top: 20px;
+}
+.Es
+{
+    color: rgb(192, 58, 102);
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    border: 1px solid  rgb(216, 186, 186);
+    width: 60px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+	position:absolute;
+}
+.shop
+{
+    font-size: 50px;
+    margin-left: 120px;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+	position:relative;
+}
+.search
+{
+    border: 1px solid rgb(216, 186, 186);
+    height: 30px;
+    width: 500px;
+    margin-top: -40px;
+    margin-left: 380px;
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+.searchicon
+{
+    margin-left: 850px;
+    margin-top: -35px;
+    position: sticky;
+}
+
+.searchicon :hover
+{
+    color:rgb(192, 58, 102);
+}
+.heart
+{
+    border: 1px solid rgb(216, 186, 186);
+    height: 40px;
+    width: 60px;
+    margin-left: 1100px;
+    margin-top: -35px;
+    position: relative;
+}
+.hearticon 
+{
+    color: rgb(192, 58, 102);
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+.zero
+{
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(66, 63, 63);
+    margin-left: 30px;
+    position: absolute;
+}
+.cart
+{
+    border: 1px solid rgb(216, 186, 186);
+    height: 40px;
+    width: 60px;
+    margin-left: 1200px;
+    margin-top: -40px;
+    position: relative;
+}
+.carticon 
+{
+    color: rgb(192, 58, 102);
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute; 
+}
+.hr
+{
+    color: rgb(238, 213, 213);
+    margin-top: 30px;
+}
+.head3
+{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head3 :hover
+{
+    color: rgb(192, 58, 102);
+}
+ .navigation .menu
+{
+     position: relative;
+}
+.submenu
+{
+    height: 200px;
+    margin-left: 70px;
+    padding-right: 170px;
+    margin-top: 6px;
+    position: absolute;
+    background-color:rgb(192, 58, 102);
+    transition: all 7s;
+    display: none;
+}
+.submenu li
+{
+    margin-top: 20px;
+    margin-left: -30px;
+     position: absolute;
+}
+ .submenu li a
+    {
+               
+     text-decoration: none;  
+               
+    }
+           
+.navigation .menu:hover .submenu
+{
+    display: block;
+    background-color: white;
+}
+.navigation .menu2
+ {
+     position: relative;
+}
+.submenu2
+{
+    height: 140px;
+    margin-left: 190px;
+    padding-right: 130px;
+    margin-top: 6px;
+    position: absolute;
+    background-color:white;
+    transition: all 7s;
+    display: none;
+}
+.submenu2 li
+{
+    margin-top: 20px;
+    margin-left: -40px;
+     position: absolute;
+}
+ .submenu2 li a
+{           
+     text-decoration: none;             
+ }          
+.navigation .menu2:hover .submenu2
+{
+    display: block;
+    background-color: white;
+}
+.form
+{
+    margin-left: 1100px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.images img  
+{
+    height: 500px;
+    width: 1349px;
+    margin-left: -8px;
+   
+}
+.form :hover
+{
+    color: rgb(192, 58, 102);
+}
+
+.head4
+
+{
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+.quality
+{
+    height: 80px;
+    width: 280px;
+    border: 1px solid  rgb(206, 123, 123); 
+    position: relative;
+
+   
+}
+
+.qualityproduct
+{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+
+.free
+{
+    
+    height: 80px;
+    width: 280px;
+    border: 1px solid  rgb(206, 123, 123); 
+    margin-left: 330px;
+    margin-top: -83px;
+    position: relative;
+
+}
+
+
+.freeship
+{
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+
+.day
+{
+     
+    height: 80px;
+    width: 280px;
+    border: 1px solid  rgb(206, 123, 123); 
+    margin-left: 660px;
+    margin-top: -83px;
+    position: relative;
+}
+
+
+.dayreturn
+{
+    
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.support
+{
+    height: 80px;
+    width: 280px;
+    border: 1px solid  rgb(206, 123, 123); 
+    margin-left: 990px;
+    margin-top: -83px;
+    position: relative;
+}
+
+
+.sup
+{
+     
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.checkicon
+{
+        color: rgb(192, 58, 102);
+        font-size: 40px;
+        margin-top: 15px;
+        margin-left: 15px;
+        position: absolute;   
+}
+
+.carticon2
+{
+    
+    color: rgb(192, 58, 102);
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+
+.arrowicon
+{
+    color: rgb(192, 58, 102);
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+
+.phoneicon
+{
+    
+    color: rgb(192, 58, 102);
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.womens
+{
+    margin-left: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.womendress
+{
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: 80px;
+    position: relative;
+}
+
+.dress
+{
+    margin-top: -10px;
+    margin-left: -75px;
+    transition: all 1.5s;
+
+    position: absolute;
+}
+
+.dress:hover
+{
+    transform: scale(1.3);
+
+}
+
+.womenskirt
+{
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -400px;
+    margin-left: 425px;
+    position: relative;
+}
+
+.skirt
+{
+    margin-top: -400px;
+    margin-left: 420px;
+    transition: all 1.5s;
+    position: absolute;
+}
+
+.skirt:hover
+{
+    transform: scale(1.3);
+    
+}
+
+
+.womencasual
+{
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -400px;
+    margin-left: 865px;
+    position: relative;
+}
+
+
+.casual
+{
+    margin-top: -380px;
+    margin-left: 850px;
+    width: 450px;
+    transition: all 1.5s;
+    position: absolute;
+}
+
+.casual:hover
+{
+    transform: scale(1.3);
+}
+
+
+.womendress2
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 10px;
+    position: absolute;
+
+}
+
+.womenskirt2
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 350px;
+    margin-left: 445px;
+    position: absolute;
+}
+
+.womencasual2
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 880px;
+    position: absolute;
+}
+
+ .images2 
+ {
+    margin-left: 10px;
+    margin-top: 80px;
+    
+ }
+
+ 
+.vendor1
+
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+}
+
+.vendor2
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 160px;
+}
+
+.vendor3
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 320px;
+}
+
+.vendor4
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 480px;
+}
+
+
+.vendor5
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 640px;
+}
+
+.vendor6
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 800px;
+}
+
+.vendor7
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 960px;
+}
+
+.vendor8
+{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(206, 123, 123);
+    margin-top: -151px;
+    margin-left: 1120px;
+}
+
+.footer
+{
+    height: 550px;
+    margin-left: -10px;
+    background-color: rgb(166, 207, 255) ;
+    margin-bottom: -380px;
+    margin-top: 100px;
+    margin-right: -8px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e
+{
+    color: rgb(192, 58, 102);
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    border: 1px solid  rgb(216, 186, 186);
+    width: 60px;
+    text-align: center;
+    margin-top: 90px;
+    position: absolute;
+}
+.Shopper
+{
+    font-size: 50px;
+    margin-left: 140px;
+    font-weight: bolder;
+    margin-top: 90px;
+    position: absolute;
+}
+.paragraph
+{
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+}
+.locationicon
+{
+    color: rgb(192, 58, 102);
+    font-size: 25px;
+    margin-top: 290px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.location
+{
+    margin-top: 293px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.mailicon
+{
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 340px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.mail
+{
+    
+    margin-top: 340px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.callicon
+{
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 390px;
+    margin-left: 50px;
+    position: absolute;
+}
+.call
+{
+    margin-top: 390px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+.circleicon
+{
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.yoursitename
+{
+    margin-top: 12px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+
+}
+.yoursitename:hover
+{
+    color: rgb(192, 58, 102);
+
+}
+
+.circle
+{
+    margin-top: 12px;
+    margin-left: 200px;
+    font-size: 17px;
+    position: absolute;
+}
+.codes
+{
+    margin-top: 15px;
+    margin-left: 440px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+}
+.codes:hover
+{
+    color: rgb(192, 58, 102);
+}
+.lastparagraph
+{
+    margin-top: 250px;
+    position: relative;
+}
+.newsletter
+{
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -300px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name
+{
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -250px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail2
+{
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -220px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe
+{
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -190px;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(172, 81, 111);
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.subscribe a
+{
+    color: white;
+}

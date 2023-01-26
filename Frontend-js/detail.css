@@ -1,0 +1,1081 @@
+.header {
+    height: 40px;
+    background-color: rgb(166, 207, 255);
+    margin-top: -8px;
+    margin-left: -8px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+.head1 {
+    margin-top: 10px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.head2 {
+    margin-left: 1100px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.EShopper {
+    margin-top: 20px;
+}
+
+.E {
+    color: rgb(192, 58, 102);
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: bolder;
+    border: 1px solid rgb(216, 186, 186);
+    width: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopper {
+    font-size: 50px;
+    margin-left: 120px;
+    font-weight: bolder;
+    margin-top: -56px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    border: 1px solid rgb(216, 186, 186);
+    height: 30px;
+    width: 500px;
+    margin-top: -40px;
+    margin-left: 380px;
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.searchicon {
+    margin-left: 850px;
+    margin-top: -25px;
+    position: sticky;
+}
+
+.searchicon :hover {
+    color: rgb(192, 58, 102);
+}
+
+.heart {
+    border: 1px solid rgb(216, 186, 186);
+    height: 40px;
+    width: 60px;
+    margin-left: 1100px;
+    margin-top: -35px;
+    position: relative;
+}
+
+.hearticon {
+    color: rgb(192, 58, 102);
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.zero {
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(66, 63, 63);
+    margin-left: 30px;
+    position: absolute;
+}
+
+.cart {
+    border: 1px solid rgb(216, 186, 186);
+    height: 40px;
+    width: 60px;
+    margin-left: 1200px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.carticon {
+    color: rgb(192, 58, 102);
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.hr {
+    color: rgb(238, 213, 213);
+    margin-top: 30px;
+}
+
+.head3 {
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head3 :hover {
+    color: rgb(192, 58, 102);
+}
+
+.navigation .menu {
+    position: relative;
+}
+
+.submenu {
+    height: 200px;
+    margin-left: 70px;
+    padding-right: 170px;
+    margin-top: 6px;
+    position: absolute;
+    background-color: rgb(192, 58, 102);
+    transition: all 7s;
+    display: none;
+}
+
+.submenu li {
+    margin-top: 20px;
+    margin-left: -30px;
+    position: absolute;
+}
+
+.submenu li a {
+
+    text-decoration: none;
+
+}
+
+.navigation .menu:hover .submenu {
+    display: block;
+    background-color: rgb(46, 171, 202);
+}
+
+.navigation .menu2 {
+    position: relative;
+}
+
+.submenu2 {
+    height: 140px;
+    margin-left: 190px;
+    padding-right: 130px;
+    margin-top: 6px;
+    position: absolute;
+    background-color: rgb(192, 58, 102);
+    transition: all 7s;
+    display: none;
+}
+
+.submenu2 li {
+    margin-top: 20px;
+    margin-left: -40px;
+    position: absolute;
+}
+
+.submenu2 li a {
+    text-decoration: none;
+}
+
+.navigation .menu2:hover .submenu2 {
+    display: block;
+    background-color: rgb(46, 171, 202);
+}
+
+.form {
+    margin-left: 1100px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.image {
+    background-color: rgb(166, 207, 255);
+    height: 300px;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -8px;
+    ;
+}
+
+.image h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.image .link {
+    padding-left: 600px;
+
+}
+
+.image a {
+    color: #c03a66;
+    font-size: 20px;
+}
+
+.container {
+    height: 500px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+    margin-left: 40px;
+    width: 600px;
+    height: 35px;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.massage {
+    margin-left: 40px;
+    width: 600px;
+    height: 200px;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(172, 81, 111);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.spn1 {
+    float: left;
+
+}
+
+#contactForm {
+
+    height: 300px;
+}
+
+.spn2 {
+    padding-left: 30px;
+}
+
+.spn2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spn2 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    color: rgb(192, 58, 102);
+    font-size: 25px;
+}
+
+.footer {
+    height: 550px;
+    margin-left: -10px;
+    background-color: rgb(166, 207, 255);
+    margin-bottom: -380px;
+    margin-top: 100px;
+    margin-right: -8px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.e {
+    color: rgb(192, 58, 102);
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    border: 1px solid rgb(216, 186, 186);
+    width: 60px;
+    text-align: center;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.Shopper {
+    font-size: 50px;
+    margin-left: 140px;
+    font-weight: bolder;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.paragraph {
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.locationicon {
+    color: rgb(192, 58, 102);
+    font-size: 25px;
+    margin-top: 290px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.location {
+    margin-top: 293px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.mailicon {
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 340px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.mail {
+
+    margin-top: 340px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.callicon {
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 390px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.call {
+    margin-top: 390px;
+    margin-left: 90px;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+.circleicon {
+    color: rgb(192, 58, 102);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.yoursitename {
+    margin-top: 12px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.yoursitename:hover {
+    color: rgb(192, 58, 102);
+
+}
+
+.circle {
+    margin-top: 12px;
+    margin-left: 200px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.codes {
+    margin-top: 15px;
+    margin-left: 440px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.codes:hover {
+    color: rgb(192, 58, 102);
+}
+
+.lastparagraph {
+    margin-top: 250px;
+    position: relative;
+}
+
+.newsletter {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -300px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -250px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail2 {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -220px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe {
+    margin-left: 1000px;
+    font-weight: bolder;
+    margin-top: -190px;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(172, 81, 111);
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.subscribe a {
+    color: white;
+}
+
+
+/* shoppingcart */
+.shopping_cart_header {
+    height: 200px;
+    background-color: #EDF1FF;
+    margin: 1.8rem -8px;
+    text-align: center;
+    padding-top: 4.3rem;
+}
+
+.shopping_cart_header h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .1rem;
+}
+
+.shopping_cart_header .shopping_cart_header_content p {
+    display: inline-block;
+    margin: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #6F6F6F;
+}
+
+.shopping_cart_header .shopping_cart_header_content p a {
+    color: #D19C97;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.shopping_cart_header .shopping_cart_header_content p a:hover {
+    color: #ba6a62;
+    text-decoration: underline;
+}
+/* header end */
+.shopping_content .shopping_table table {
+    text-align: center;
+    border: 1px solid #EDF1FF;
+    width: 60%;
+    height: 15rem;
+    margin-bottom: 1rem;
+    color: #6F6F6F;
+    display: table;
+    margin: 2.5rem;
+    border-collapse: collapse;
+
+}
+
+.shopping_content .shopping_table table th,td 
+{
+     border: 1px solid #EDF1FF; 
+}
+
+.shopping_content .shopping_table table th {
+    padding: 1.5rem;
+    background-color: #EDF1FF;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.shopping_content .shopping_table .input_group_btn button
+{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600
+}
+
+.btn_sm,
+.btn_group_sm>.btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+.bttn {
+    height: 50px;
+    width: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #D19C97;
+    color: #212529;
+    background-color: #D19C97;
+}
+
+.form_control {
+    width: 25px;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.input_group {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 7rem;
+    margin: 1rem;
+}
+
+
+.btn_primary:hover {
+    color: #fff;
+    background-color: #c5837c;
+    border-color: #c17a74;
+}
+
+/* shopping side */
+.shopping_content .shopping_side {
+    float: right;
+    margin-top: -28rem;
+    margin-left: 1rem;
+}
+
+.input_group_side {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 7rem;
+    margin: 1rem;
+}
+
+.form_control_side {
+    width: 15rem;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.from_side {
+    margin-bottom: 1.5rem;
+}
+
+.bttn_side {
+    height: 50px;
+    width: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+    border: 1px solid #D19C97;
+    color: #212529;
+    background-color: #D19C97;
+}
+
+.cart_sumary {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.cart_sumary h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+    background-color: #EDF1FF;
+    width: 24rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.cart_sumary .card-body {
+    width: 24rem;
+    padding: 1rem;
+}
+
+.cart_sumary .card-body h6 {
+    display: inline;
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.cart_footer {
+    margin: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+
+}
+
+.cart_footer h5 {
+    display: inline;
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+}
+
+.bttn_side_footer {
+    text-align: center;
+    margin-left: 1rem;
+    height: 50px;
+    width: 23rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+    border: 1px solid #D19C97;
+    color: #212529;
+    background-color: #D19C97;
+}
+
+/* checkout */
+.checkout_container {
+    margin: 5rem;
+
+}
+
+.checkout_container_image img {
+    width: 25rem;
+    height: 28rem;
+    border: 1px solid #EDF1FF;
+}
+
+.checkout_container_side {
+    float: right;
+    margin-top: -30rem;
+    margin-right: 0rem;
+    width: 60%;
+}
+
+.checkout_container_side h3 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+}
+
+.text_primary {
+    color: #D19C97;
+    margin: .5rem;
+}
+
+.review {
+    margin: .5rem 0 0 .5rem;
+    font-size: 80%;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #6F6F6F;
+    text-align: left;
+}
+
+.checkout_container_side p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6F6F6F;
+    text-align: left;
+    background-color: #fff;
+    margin-right: 5rem;
+}
+
+.d-flex form {
+    margin-top: 1rem;
+    margin-left: -3rem
+}
+
+.d-flex .size {
+    font-weight: 700;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.custom-control {
+    display: inline;
+    padding-left: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6F6F6F;
+    text-align: left;
+}
+
+.btn_cart {
+    height: 50px;
+    width: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #D19C97;
+    color: #212529;
+    background-color: #D19C97;
+}
+
+.input_group_cart {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 7rem;
+}
+
+.bttn_add_to_cart {
+    height: 50px;
+    width: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #D19C97;
+    color: #212529;
+    background-color: #D19C97;
+    float: right;
+    margin-top: -3rem;
+    margin-right: 19rem;
+}
+
+.description .des_nav {
+    margin: .3rem 0 0 6rem;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+}
+
+.description .des_nav a {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.description .des_nav a:hover,
+.description .des_nav a:active {
+    color: #D19C97;
+}
+
+.description .des_content .Information, .description .des_content .Reviews
+    {
+    display: none;
+}
+
+.description .des_content {
+    margin: 1rem 9rem 0 6.5rem
+}
+
+.description .des_content h4 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1C1C1C;
+}
+
+.description .des_content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #6F6F6F;
+    text-align: left;
+    background-color: #fff;
+}
+
+.description .des_content table {
+    margin-top: 3rem;
+}
+
+.description .des_content table td {
+    border-width: 0 0 1px;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6F6F6F;
+}
+
+.Reviews .Reviwes_content {
+    width: 50%
+}
+.Reviews
+{
+    height: 60vh;
+}
+
+.Reviews .Reviwes_content h4 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1C1C1C;
+}
+
+.Reviews .Reviwes_content .review_img {
+    display: flex;
+    padding: .5rem;
+}
+
+.Reviews .Reviwes_content .review_img img {
+    margin: 1.5rem;
+}
+
+.Reviews .Reviwes_content .review_img h6 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+}
+
+.Reviews .Reviwes_content_side {
+    float: right;
+    margin-top: -17rem;
+    margin-right: .5rem;
+}
+
+.Reviews .Reviwes_content_side h4 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1C1C1C;
+}
+
+.Reviews .Reviwes_content_side small {
+    font-size: 80%;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #6F6F6F;
+    text-align: left;
+    background-color: #fff;
+}
+
+.Reviews .Reviwes_content_side .rating {
+    display: flex;
+}
+
+.Reviews .Reviwes_content_side .rating i {
+    margin: .6rem;
+}
+
+.Reviews .Reviwes_content_side .form_control_rating 
+{
+    margin-left: 40px;
+    width: 27rem;
+    height: 35px;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: .5rem;
+    display: block;
+}
+.Reviews .Reviwes_content_side form textarea
+{
+    width: 27rem;
+    height: 6rem;
+    border: 1px #FAEBD7 solid;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.Reviews .Reviwes_content_side form label
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6F6F6F;
+}
+
+.Reviews .Reviwes_content_side form .bttn_rating
+{
+    height: 50px;
+    width: 13rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #D19C97;
+    color: #212529;
+    background-color: #D19C97;   
+    margin: 1rem;
+}
+
+.shop_content_table .text h2
+{
+    text-align: center;
+    margin: 4rem 3rem .2rem 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1C1C1C;
+    font-family: "Poppins", sans-serif;
+}
+
+.shop_content_table table
+{
+    margin: 2rem 0rem 0 1rem;
+}
+.shop_content_table table td
+{
+    padding: 1.4rem;
+    border: none;
+}
+
+.shop_content_table table td .image_cart
+{
+    border: 1px solid #EDF1FF;
+    padding: 1rem;
+}
+.shop_content_table table td .data_cart
+{
+    text-align: center;
+    border: 1px solid #EDF1FF;
+    padding: 0 1rem;    
+}
+.shop_content_table table td .data_cart h6
+{
+    font-size: 1rem;
+    margin: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1C1C1C; 
+    font-family: "Poppins", sans-serif;
+}
+
+.shop_content_table table td .data_cart .d_flex 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.shop_content_table table td .data_cart .d_flex  h6
+{
+    font-weight: 500;
+}
+.shop_content_table table td .data_cart .d_flex  h6 del
+{
+    color: #6c757d
+}
+.shop_content_table table td .data_footer
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EDF1FF;
+}
+.shop_content_table table td .data_footer .text_primary
+{
+    color: #D19C97 ;
+    margin-right: 0.25rem;
+}
+.shop_content_table table td .data_footer a:hover
+{
+    color:#ba6a62;
+}
+
